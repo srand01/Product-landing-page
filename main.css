@@ -249,6 +249,10 @@ li {
 .product > button:hover {
   background-color: #ddd;
 }
+.product > button:active {
+  color: white;
+  background-color: #008cba;
+}
 
 footer {
   padding-top: 30px;
