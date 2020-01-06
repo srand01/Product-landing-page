@@ -11,7 +11,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #d5d4d000;
 }
-#header {
+
+/* #header {
   position: fixed;
   top: 0;
   right: 0;
@@ -23,27 +24,27 @@ body {
   align-items: center;
   background-color: #f3f3f3;
   box-shadow: 10px 10px 29px 0px rgba(0, 0, 0, 0.75);
-}
+} */
 
-.logo {
+/* .logo {
   width: 60vw;
-}
+} */
 
-.logo img {
+/* .logo img {
   width: 100%;
   height: 100%;
   max-width: 100px;
   margin-left: 20px;
-}
+} */
 
-#nav-bar > ul {
+/* #nav-bar > ul {
   width: 35vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
+} */
 
-#nav-bar ul li {
+/* #nav-bar ul li {
   list-style: none;
 }
 
@@ -60,12 +61,10 @@ body {
 #nav-bar ul li a:active {
   color: white;
   background-color: #008cba;
-}
+} */
 
 #container {
-  /* max-width: 1000px; */
   width: 100%;
-  /* margin: 0 auto; */
 }
 
 #hero {
@@ -74,8 +73,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* height: 800px; */
-  /* margin-top: 150px; */
 
   min-height: 100vh;
   /*Photo by Dom J from Pexels
@@ -283,7 +280,7 @@ footer > span {
 
 /*************** MEDIA QUERIES ***************/
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   header {
     flex-wrap: wrap;
   }
@@ -319,13 +316,7 @@ footer > span {
   nav > ul {
     flex-direction: column;
   }
-}
-
-@media (max-width: 650px) {
-  #hero {
-    margin-top: 120px;
-  }
-}
+} */
 
 @media (max-width: 800px) {
   #pricing {
@@ -336,5 +327,60 @@ footer > span {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+}
+
+/*nav*/
+
+#header-img {
+  max-width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  /* border-top: 6px solid #e6af2e; */
+  /* background: #191716; */
+  background: #f3f3f3;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 25px;
+  color: #667;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 40px;
+  background: #f3f3f3;
+  /* color: #191716; */
+  font-style: italic;
+}
+
+@media screen and (min-width: 576px) {
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  nav ul li {
+    flex: 1 0 auto;
+  }
+  .logo {
+    display: block;
+    text-align: left;
+  }
+  .logo .fa {
+    display: none;
   }
 }
