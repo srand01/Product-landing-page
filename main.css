@@ -186,9 +186,10 @@ body {
 }
 
 #how-it-works {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
+  background-color: #ddddddb3;
 }
 
 #how-it-works > iframe {
@@ -197,10 +198,11 @@ body {
 }
 
 #pricing {
-  margin-top: 60px;
+  padding-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: #ddd3;
 }
 
 .product {
@@ -249,7 +251,7 @@ li {
 }
 
 footer {
-  margin-top: 30px;
+  padding-top: 30px;
   background-color: #ddd;
   padding: 20px;
 }
