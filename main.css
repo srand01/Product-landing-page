@@ -378,7 +378,7 @@ nav ul li a:hover {
     justify-content: space-between;
   }
   nav ul li {
-    flex: 1 0 auto;
+    flex: 0.1 0 auto;
   }
   .logo {
     display: block;
