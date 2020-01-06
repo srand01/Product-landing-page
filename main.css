@@ -361,9 +361,13 @@ nav ul li a:hover {
   justify-content: space-between;
   text-transform: uppercase;
   font-size: 40px;
-  background: #f3f3f3;
+  background: #ddd;
   /* color: #191716; */
   font-style: italic;
+}
+
+.logo:hover {
+  background-color: #dddddd80;
 }
 
 @media screen and (min-width: 576px) {
