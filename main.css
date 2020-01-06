@@ -73,9 +73,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-
   min-height: 100vh;
-  /*Photo by Dom J from Pexels
+  /*Background photo by Dom J from Pexels
 */
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.pexels.com/photos/297385/pexels-photo-297385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -355,6 +354,10 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #ddd;
 }
+nav ul li a:active {
+  color: white;
+  background-color: #008cba;
+}
 
 .logo {
   display: flex;
@@ -373,7 +376,6 @@ nav ul li a:hover {
 @media screen and (min-width: 576px) {
   nav ul {
     display: flex;
-    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
   }
